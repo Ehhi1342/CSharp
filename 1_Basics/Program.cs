@@ -31,7 +31,7 @@ comment
 #endregion
 
 #region Variables
-Console.WriteLine("What is your name?");
+Console.WriteLine("Hello there. What is your name?");
 
 //<Type> <Name> = <Value> ;
 string myString = "This is how to define a string variable!";
@@ -40,11 +40,17 @@ string myString = "This is how to define a string variable!";
 myString = Console.ReadLine();
 
 //Writing it back to the console
-Console.WriteLine("Aaah, welcome " + myString + ", nice to meet you!");
+Console.WriteLine("Aaah, welcome " + myString + ", it's nice to meet you :)");
+
+Console.WriteLine("SO hos is it going?");
+
+Console.ReadLine();
+
+Console.WriteLine("Oh, okay.");
 #endregion
 
 #region Data types
-Console.WriteLine("Do you want to learn about the simplest data types?");
+Console.WriteLine("So, are you here to learn some new stuff?");
 /*
 * The four main basic types we we will work with in the beginning are:
 * bool, Int, Float and String   
@@ -68,7 +74,7 @@ if(answer == "yes"){
 }
 
 if(LearnAboutDataTypes == true){
-    Console.WriteLine("Then you have come to the right place!");
+    Console.WriteLine("Well, well, well then. Then you have come to the right place:)");
     Console.WriteLine("The 'bool' type can either be 'true' or 'false', nothing more, nothing less.");
     Console.WriteLine("When you answered 'yes', a bool named 'LearnAboutDataTypes' was set to 'true'");
     Console.WriteLine("And allowed for these messages!");
